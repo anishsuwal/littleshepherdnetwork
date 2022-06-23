@@ -3,11 +3,11 @@ import logo from "../../../img/entertainment.png"
 
 
 
-export default function MiddlePage() {
+export default function Hero() {
 
     return (
-        <section id="home-id">
-            <div className="pt-20 pb-10  text-white">
+            <section id="home" className="delay-1000">
+            <div className="pt-44 pb-16  text-white">
 
                 <div className="ml-6 sm:ml-20  md:ml-20  lg:ml-40  grid grid-cols-1 md:grid-cols-2 gap-28">
                     <div><h1 className="text-xl">Start Investing & Earn Money</h1>
@@ -19,7 +19,7 @@ export default function MiddlePage() {
                 <div className="w-full  rounded-full dark:bg-gray-700 ">
                 <span className="text-right">Total raised: 1 864 866$</span>
                     <div className="bg-gradient-to-r from-yellow-200 to-yellow-500 text-sm  text-black text-center p-1 font-bold 
-                    leading-none rounded-full" > 45%</div>
+                    leading-none rounded-full mr-5" > 45%</div>
                      <span className="text-left">Fixed token edition 5.000.000 BITS</span>
                 </div>
 
@@ -59,7 +59,7 @@ export default function MiddlePage() {
                 </div>
 
             </div>
-        </section>
+            </section>
 
     )
 }

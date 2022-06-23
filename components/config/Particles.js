@@ -6,14 +6,11 @@ function Particle(){
     console.log(main);
     await loadFull(main);
   };
-  const particlesLoaded = (container) => {
-    console.log(container);  
-  };
+
   return(
     <Particles
       id="tsparticles"
       init={particlesInit}
-      loaded={particlesLoaded}
       options={{
         autoPlay: true,
     background: {
@@ -21,7 +18,7 @@ function Particle(){
         value: "#000000"
       },
       image: "",
-      position: "",
+      position:"",
       repeat: "",
       size: "",
       opacity: 1
@@ -37,6 +34,7 @@ function Particle(){
       enable: false
     },
     fullScreen: {
+    
       enable: true,
       zIndex: -1
     },
@@ -579,6 +577,7 @@ function Particle(){
     zLayers: 100,
     emitters: []
       }}
+      
       
     />
   )
