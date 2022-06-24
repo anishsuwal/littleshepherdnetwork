@@ -5,9 +5,9 @@ export default function aboutUs() {
     return (
         <section id="aboutus" className="delay-1000">
 
-            <div className=" lg:p-10 p-5 lg:mx-28   ">
+            <div className=" lg:p-10 p-2 lg:mx-28   ">
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10  text-white">
+                <div className="grid grid-cols-1 md:grid-cols-2  text-white">
                     <div><h1 className="text-5xl font-semibold">About US</h1>
                         <div className="text-lg pt-16">
                             <p><span className="text-3xl font-bold text-yellow-400">LSNetwork</span> is introducing The Worlds First Digital streaming Platform and
@@ -27,7 +27,7 @@ export default function aboutUs() {
 
                             </p></div>
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-10 ">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
                             src={aboutimg}

@@ -4,7 +4,7 @@ import aboutimg from "../../../img/whitepaper.png"
 export default function Products() {
     return (
         <section id="products" className="delay-1000 ">
-            <div className=" lg:p-10 p-8 lg:mx-28 bg  ">
+            <div className=" lg:p-10 p-2 lg:mx-28 bg  ">
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-20  text-white">
                     <div className="mt-10">

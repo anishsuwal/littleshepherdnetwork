@@ -9,7 +9,7 @@ export default function Hero() {
             <section id="home" className="delay-1000">
             <div className="pt-44 pb-16  text-white">
 
-                <div className="ml-6 sm:ml-20  md:ml-20  lg:ml-40  grid grid-cols-1 md:grid-cols-2 gap-28">
+                <div className="p-2 sm:ml-20  md:ml-20  lg:ml-40  grid grid-cols-1 md:grid-cols-2 gap-28">
                     <div><h1 className="text-xl">Start Investing & Earn Money</h1>
 
                 <h2 className="subtitle mb-2 text-5xl py-10">Say Goodbye To <br/>Idle #Money.</h2>
