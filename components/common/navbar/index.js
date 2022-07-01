@@ -17,10 +17,8 @@ export default function Navbar() {
     { name: "About", link: "#aboutus" },
     { name: "Token", link: "#token" },
     { name: "Roadmap", link: "#roadmap" },
-
-
-
-
+    { name: "Team", link: "#team" },
+    { name: "Contact", link: "#contactus" }
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -37,15 +35,12 @@ export default function Navbar() {
               />
             </a>
           </div>
-
         </div>
-
         <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
           <button name={open ? 'close' : 'menu'}><div className="w-5 h-1 bg-gray-600 mb-1"></div>
             <div className="w-5 h-1 bg-gray-600 mb-1"></div>
             <div className="w-5 h-1 bg-gray-600"></div></button>
         </div>
-
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute mr-10
        md:static   md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9
         transition-all duration-500 ease-in ${open ? 'top-20 bg-black  lg:bg-transparent ' : 'top-[-490px] bg-transparent'}`}>
@@ -56,9 +51,7 @@ export default function Navbar() {
               </li>
             ))
           }
-
           <div className="lg:flex flex-1 inline-block text-sm  py-4   mr-20 leading-none  rounded">
-
             <button
               className="bg-white text-black  font-bold  rounded-full inline-flex lg:w-40 h-10 w-full    
               py-2 px-5 mx-4 text-center justify-center items-center"
@@ -74,16 +67,10 @@ export default function Navbar() {
             text-center justify-center items-center rounded-full cursor-pointer hover:bg-yellow-500">
               Invest Now
             </button>
-
           </div>
-
         </ul>
-
       </div>
-
     </div>
-
   )
-
 }
 

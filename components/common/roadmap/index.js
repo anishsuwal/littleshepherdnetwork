@@ -5,23 +5,23 @@ export default function Roadmap() {
     return (
         <>
             <div className=" lg:p-10 p-5  text-white ">
-                
+
                 <div className=" text-center">
                     <ul className="list-none mx-10">
-                    <h1 className="text-5xl font-bold">Roadmap</h1>
-                            <li className="text-3xl font-bold mt-20">Startup</li>
-                        </ul>
-                                        
-                        <ul className="list-none mx-10  text-sm mt-5">
-                            <li>Startup Launchpads application.</li>
-                            <li>Little shepherds Network token pre-sale</li>
-                            <li>Little shepherd Network token launch</li>
-                            <li>Marketing & Campaigning for the project.</li>
-                            <li>Community building</li>
-                            <li>White paper V.1</li>
-                            
-                        </ul>
-</div>
+                        <h1 className="text-5xl font-bold">Roadmap</h1>
+                        <li className="text-3xl font-bold mt-20">Startup</li>
+                    </ul>
+
+                    <ul className="list-none mx-10  text-sm mt-5">
+                        <li>Startup Launchpads application.</li>
+                        <li>Little shepherds Network token pre-sale</li>
+                        <li>Little shepherd Network token launch</li>
+                        <li>Marketing & Campaigning for the project.</li>
+                        <li>Community building</li>
+                        <li>White paper V.1</li>
+
+                    </ul>
+                </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-4 justify-between items-center 
                   mt-10 text-white">
@@ -111,7 +111,7 @@ export default function Roadmap() {
                             <li>More partnerships with big studios to bring more interesting films as premium limited NFTs</li>
                             <li>Bringing 100+ projects on the LSN plaform by the end of phase-4.White paper V.2</li>
 
-                           
+
                         </ul>
                     </div>
                 </div>

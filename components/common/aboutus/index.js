@@ -10,7 +10,7 @@ export default function aboutUs() {
                 <div className="grid grid-cols-1 md:grid-cols-2  text-white">
                     <div><h1 className="text-5xl font-semibold">About US</h1>
                         <div className="text-lg pt-16">
-                            <p><span className="text-3xl font-bold text-yellow-400">LSNetwork</span> is introducing The Worlds First Digital streaming Platform and
+                            <p><span className="text-2xl font-bold text-yellow-400">LSNetwork</span> is introducing The Worlds First Digital streaming Platform and
                                 Marketplace through its NFTs on blockchain that aims to build a
                                 collaborative content ecosystem with the core purpose of giving audience a
                                 choice to own the content and use it for passive income, seed funding,
