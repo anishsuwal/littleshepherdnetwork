@@ -15,26 +15,26 @@ export default function Home() {
   return (
     <>
      <Particle />
-     <div className="w-full font-Montserrat text-sm">
+     <div className="w-full font-Montserrat text-sm text-white">
           <Navbar />
           <Hero />          
-          <div className='  text-justify border-x-yellow-500 ring-1'>
+          <div className=' mt-44   text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
           <AboutUs/>  
         </div>
-        <div className='  text-justify border-x-yellow-500 ring-1'>
+        <div className='  text-justify border-x-yellow-500 '>
         <Products/>
         </div>
-        <div className='  text-justify border-x-yellow-500 ring-1'>
+        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
           <Token/>         
         </div>
-        <div className='  text-justify border-x-yellow-500 ring-1'>
+        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
           <WhyWe/>
           <Roadmap/>         
         </div>
-        <div className='  text-justify border-x-yellow-500 ring-1'>
+        <div className='  text-justify border-x-yellow-500border-t border-slate-900 shadow-2xl'>
           <Team/>
         </div>
-        <div className='  text-justify border-x-yellow-500 ring-1 pb-10'>
+        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl pb-10'>
           <ContactUs/>
         </div>
         <div className=' text-justify border-x-yellow-500  '>

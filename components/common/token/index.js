@@ -11,7 +11,7 @@ export default function Token() {
             <div className=" lg:p-10 p-2 lg:mx-28   ">
 
                 <div className="flex flex-col text-white  opacity-85">
-                    <div><h1 className="text-5xl font-semibold">Tokennomics </h1></div>
+                    <div><h1 className="text-5xl font-semibold">Tokenomics </h1></div>
                     
                     <div className="flex flex-col md:flex-row gap-x-10 text-white  opacity-85">
                         <div className="flex flex-col">
@@ -38,7 +38,7 @@ export default function Token() {
                             </div>
                             <div className="flex flex-row py-5 justify-between"><div>
                                 <p className="  text-xs lg:text-md text-center">Token Name </p>
-                                <p className="font-semibold text-center text-xs lg:text-lg px-2 text-yellow-400 ">little shepherd Network </p>
+                                <p className="font-semibold text-center text-xs lg:text-lg px-2 text-yellow-400 ">Little shepherd Network </p>
                             </div>
                                 <div className=''>
                                     <p className="  text-xs lg:text-md ">Token Symbol </p>
@@ -46,7 +46,7 @@ export default function Token() {
                                 </div>
                                 <div className='mr-2'>
                                     <p className="  text-xs lg:text-md ">Token Type </p>
-                                    <p className="font-semibold text-center text-xs lg:text-lg text-yellow-400">ERC20 </p>
+                                    <p className="font-semibold text-center text-xs lg:text-lg text-yellow-400">BEP20 </p>
                                 </div></div>
                         </div>
                         <div className="justifi-center items-center text-center mt-10">
@@ -72,13 +72,13 @@ export default function Token() {
                     <div className="flex gap-x-5 md:gap-x-16 mt-5 md:mt-0 ">
                             <div className='px-5'>
                                 <p className="  text-[10px] lg:text-md text-left ">Platform </p>
-                                <p className="font-semibold text-[10px] lg:text-xl text-left ">Ethereum</p>
+                                <p className="font-semibold text-[10px] lg:text-xl text-left ">BSC</p>
                             </div>
 
                             <div>
                                 <p className="  text-[10px] lg:text-md text-left ">Total Supply </p>
-                                <p className="font-semibold text-[10px] lg:text-lg text-left ">1000000000 
-                                <span className="text-yellow-400">LSN</span> </p>
+                                <p className="font-semibold text-[10px] lg:text-lg text-left ">1000000000 ( 1 billion )
+ </p>
 
                             </div>
                             <div>

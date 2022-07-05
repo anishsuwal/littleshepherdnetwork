@@ -53,20 +53,15 @@ export default function Navbar() {
           }
           <div className="lg:flex flex-1 inline-block text-sm  py-4   mr-20 leading-none  rounded">
             <button
-              className="bg-white text-black  font-bold  rounded-full inline-flex lg:w-40 h-10 w-full    
-              py-2 px-5 mx-4 text-center justify-center items-center"
+              className="bg-transparent border-yellow-400 border shadow-2xl   text-base font-medium rounded-full inline-flex lg:w-40 h-10 w-full    
+              py-2 px-5 mx-4 text-center justify-center items-center hover:bg-yellow-500"
             >
-              <svg strokeWidth="0" viewBox="0 0 511.97 511.97" className="align-middle me-1 fill-[#f3ba2f]"
-                height="22" width="22" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z">
-                </path>
-                  <path d="M156.56,215.14,256,115.71l99.47,99.47,57.86-57.85L256,0,98.71,157.28l57.85,57.85M0,256l57.86-57.87L115.71,256,57.85,313.83Zm156.56,40.85L256,396.27l99.47-99.47,57.89,57.82,0,0L256,512,98.71,354.7l-.08-.09,57.93-57.77M396.27,256l57.85-57.85L512,256l-57.85,57.85Z">
-                  </path></g></svg>
-              <span className="px-1  text-sm">BNB Chain</span>
+              <span className="px-1  text-sm">Buy Tokens</span>
             </button>
-            <button className="bg-yellow-400 text-black font-semibold  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
-            text-center justify-center items-center rounded-full cursor-pointer hover:bg-yellow-500">
-              Invest Now
-            </button>
+            <button className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
+            text-center justify-center items-centercursor-pointer hover:bg-yellow-500 bg-transparent">
+              Whitepaper 
+              </button>
           </div>
         </ul>
       </div>
