@@ -21,7 +21,7 @@ export default function Home() {
           <div className=' mt-44   text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
           <AboutUs/>  
         </div>
-        <div className='  text-justify border-x-yellow-500 '>
+        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
         <Products/>
         </div>
         <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
@@ -37,7 +37,7 @@ export default function Home() {
         <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl pb-10'>
           <ContactUs/>
         </div>
-        <div className=' text-justify border-x-yellow-500  '>
+        <div className=' text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl '>
           <Footer/>
         </div>
        
