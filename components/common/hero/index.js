@@ -23,7 +23,7 @@ export default function Hero() {
                                     className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"
                                 ></span>
                             </h1>
-                            <div className="text-sm ">Community Driven WEB-3 STREAMING PLATFORM</div>
+                            <div className="text-sm uppercase ">Community Driven WEB-3 STREAMING PLATFORM</div>
                         </header>
                         <div className="text-xl">
                             Invest your spare change in <strong>LSN Token </strong> and save with
