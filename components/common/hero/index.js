@@ -14,11 +14,12 @@ export default function Hero() {
                         <header className=" group  py-10">
                             <h1 className="mb-1  text-4xl text-yellow-400 md:text-6xl">
                                 <br className="block md:hidden" />
-                                <span className="text-5xl font-bold">Little </span>
+                                <span className="text-5xl font-bold"> </span>
                                 <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse 
                     whitespace-nowrap text-brand-accent will-change-transform text-5xl font-bold ">
-                                    Shepherd Network
+                                    Little Shepherd Network
                                 </span>
+                                
                                 <span
                                     className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"
                                 ></span>
