@@ -12,28 +12,7 @@ export default function Token() {
 
                 <div className="flex flex-col text-white  opacity-85">
                     <div><h1 className="text-5xl font-semibold">Tokennomics </h1></div>
-                    <div className="text-lg pt-16">
-                        <p >
-                            Online streaming services were a watershed moment in the entertainment
-                            industry over the last decade. Anyone can watch their favorite shows and
-                            films on YouTube, Prime Video, Netflix, and other platforms. The video
-                            streaming market is expected to reach US$ 50 billion in 2022, with a CAGR
-                            of more than 17 percent from 2022 to 2032, accumulating a market value of
-                            US$ 241 billion. However, with this advancement comes centralized control
-                            over content by large production houses and studios. You can not own it or
-                            share it with your friends or loved ones like you could with physical assets
-                            like DVDs in the past. Furthermore, once you have paid your subscription,
-                            you have no true value in terms of ownership. We would like to change that
-                            with our innovative ecosystem of streaming platforms on the blockchain
-                            and make it more affordable</p>
-                        <p className="mt-10"> The BNB smart chain would serve as the foundation for our native token
-                            <span className="text-xl font-bold text-yellow-400"> little shepherd Network Or LSN token. </span>
-                            It will be used as a transaction tool
-                            on the streaming server to buy and sell NFTs. It can be traded on the
-                            available DEX/CEX. Our native token can be staked for passive income
-                            through our future staking programmes.
-                        </p>
-                    </div>
+                    
                     <div className="flex flex-col md:flex-row gap-x-10 text-white  opacity-85">
                         <div className="flex flex-col">
                             <div className="flex flex-row  text-[8px]  xl:text-xs  mt-20  justify-center items-center  text-center ">
@@ -98,7 +77,8 @@ export default function Token() {
 
                             <div>
                                 <p className="  text-[10px] lg:text-md text-left ">Total Supply </p>
-                                <p className="font-semibold text-[10px] lg:text-lg text-left ">1000000000 <span className="text-yellow-400">LSN</span> </p>
+                                <p className="font-semibold text-[10px] lg:text-lg text-left ">1000000000 
+                                <span className="text-yellow-400">LSN</span> </p>
 
                             </div>
                             <div>
