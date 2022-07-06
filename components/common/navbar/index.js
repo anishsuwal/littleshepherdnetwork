@@ -13,8 +13,8 @@ export default function Navbar() {
 
   const Links = [
     { name: "Home", link: "#home" },
-    { name: "Products", link: "#products" },
     { name: "About", link: "#aboutus" },
+    { name: "Products", link: "#products" },
     { name: "Token", link: "#token" },
     { name: "Roadmap", link: "#roadmap" },
     { name: "Team", link: "#team" },

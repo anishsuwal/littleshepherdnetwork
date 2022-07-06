@@ -3,7 +3,7 @@ import aboutimg from "../../../img/about-img.svg"
 
 export default function aboutUs() {
     return (
-        <section id="aboutus" className="delay-1000 pt-28">
+        <section id="aboutus" className="delay-1000 pt-28  ">
 
 
                 <div className="grid grid-cols-1 md:grid-cols-2">

@@ -6,8 +6,8 @@ import logo from "../../../img/entertainment.png"
 export default function Hero() {
 
     return (
-        <section id="home" className="delay-1000 scroll-m-64 ">
-            <div className="items-center mb-24">
+        <section id="home" className="delay-1000 scroll-m-64 py-10 ">
+            <div className="items-center mb-32 ">
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
                         <header className=" group  py-10">
