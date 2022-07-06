@@ -6,11 +6,10 @@ import contactusimg from "../../../img/contactus-img.png"
 export default function ContactUs() {
 
     return (
-        <section id="contactus">
-            <div  className=" p-6   sm:ml-20 sm:mr-20 
-                        md:ml-20 md:mr-20 lg:ml-40 lg:mr-40 text-white  " >
-                <div><h1 className="text-5xl font-semibold pb-20 mt-10">Contact With US</h1>
-                    <div  className="grid grid-row-6 grid-flow-col gap-4">
+        <section id="contactus" className="pt-28">
+           
+                <div><h1 className="text-2xl md:text-5xl  font-semibold pb-20 ">Contact Us</h1>
+                    <div  className="grid grid-row grid-row-6 grid-flow-col gap-4">
                         <div className="bg-white-300 rounded-lg">
                             <input
                                 type="text"
@@ -29,7 +28,7 @@ export default function ContactUs() {
                                 transition
                                 ease-in-out
                                 m-0
-                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                                focus:text-gray-700 focus:bg-white focus:border-yellow-400 focus:outline-none
                             "
                                 id="exampleText0"
                                 placeholder="Name"
@@ -53,7 +52,7 @@ export default function ContactUs() {
                                 transition
                                 ease-in-out
                                 m-0
-                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                                focus:text-gray-700 focus:bg-white focus:border-yellow-400 focus:outline-none
                             "
                                 id="exampleText0"
                                 placeholder="Phone Number"
@@ -72,18 +71,17 @@ export default function ContactUs() {
                                 transition
                                 ease-in-out
                                 m-0
-                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                focus:text-gray-700 focus:bg-white focus:border-yellow-400 focus:outline-none"
                                 placeholder="Message">
 
                             </textarea>
                         </div>
                         <div className="row-start-4 rounded-lg">
-                        <button className="bg-yellow-400 text-black font-semibold  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
+                        <button className="bg-transparent ring-1 font-semibold  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
                         text-center justify-center items-center rounded-full cursor-pointer hover:bg-yellow-500">
                         Send
                         </button>
                         </div>
-
                         <div className="bg-white-500 row-span-1 rounded-lg"><input
                             type="text"
                             className="
@@ -101,7 +99,7 @@ export default function ContactUs() {
                                 transition
                                 ease-in-out
                                 m-0
-                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                                focus:text-gray-700 focus:bg-white focus:border-yellow-400 focus:outline-none
                             "
                             id="exampleText0"
                             placeholder="Email"
@@ -123,7 +121,7 @@ export default function ContactUs() {
                                 transition
                                 ease-in-out
                                 m-0
-                                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                                focus:text-gray-700 focus:bg-white focus:border-yellow-400 focus:outline-none
                             "
                             id="exampleText0"
                             placeholder="Subject"
@@ -138,11 +136,8 @@ export default function ContactUs() {
                                 layout='responsive'
                             />
                         </div>
-
                     </div>
                 </div>
-
-            </div>
         </section>
 
     )

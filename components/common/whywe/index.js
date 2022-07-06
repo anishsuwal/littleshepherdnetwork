@@ -3,11 +3,8 @@ import aboutimg from "../../../img/hero-img.svg"
 
 export default function WhyWe() {
     return (
-        <section id="roadmap" className="delay-1000">
-
-            <div className=" lg:p-10 p-2 lg:mx-28   ">
-
-                <div className="grid grid-cols-1 md:grid-cols-2  text-white">
+        <section id="whyme" className="delay-1000 pt-28">
+                <div className="grid grid-cols-1 md:grid-cols-2 ">
                     <div className="mt-10">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
@@ -15,9 +12,9 @@ export default function WhyWe() {
                             layout="responsive"
                         />
                     </div>
-                    <div><h1 className="text-5xl font-semibold">Why LSN?</h1>
-                        <h1 className="pt-10 text-2xl font-semibold"> How is it different from other similar projects?</h1>
-                        <div className="text-lg pt-10">
+                    <div><h1 className="text-2xl md:text-5xl font-semibold">Why LSN?</h1>
+                        <h1 className="pt-10 text-lg lg:text-2xl  font-semibold"> How is it different from other similar projects?</h1>
+                        <div className="text-sm lg:text-lg pt-10">
                             <ul className="list-disc">
                                 <li>The projects will be distributed as limited NFTs ( 1000-10000 limitedNFTs)</li>
                                 <li>NFTs buyers will be credited as producers.</li>
@@ -36,7 +33,7 @@ export default function WhyWe() {
                         </div>
                     </div>
 
-                    <div className=" col-span-2 text-lg pt-5">
+                    <div className=" col-span-2 text-sm lg:text-lg pt-5">
                         <ul className="list-disc">
                             <li>Our sell tax system will fully support and strengthen the token as 10%
                                 sell tax will be going to ( 30% burn wallet + 20% staking holders + 20%
@@ -60,7 +57,6 @@ export default function WhyWe() {
                         </ul>
                     </div>
                 </div>
-            </div>
         </section>
     )
 } 

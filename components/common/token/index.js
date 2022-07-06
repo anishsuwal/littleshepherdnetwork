@@ -6,16 +6,43 @@ import Countdown from "../countdown"
 
 export default function Token() {
     return (
-        <section id="token" className="delay-1000">
+        <section id="token" className="delay-1000 pt-28">
 
-            <div className=" lg:p-10 p-2 lg:mx-28   ">
-
-                <div className="flex flex-col text-white  opacity-85">
-                    <div><h1 className="text-5xl font-semibold">Tokenomics </h1></div>
-                    
-                    <div className="flex flex-col md:flex-row gap-x-10 text-white  opacity-85">
+                <div className="flex flex-col justify-center  opacity-85">
+                    <div><h1 className="text-2xl md:text-5xl font-semibold">Tokenomics </h1></div>
+                    <div className="flex flex-col  mt-10 items-center">
+                        <div className=" ring-1 p-2 md:p-10 rounded-2xl">
+                        <p  className=" mt-5">
+                            <span className="  text-xs lg:text-lg  text-center">Token Name : </span>
+                            <span className="font-semibold text-center text-xs lg:text-lg px-2 text-yellow-400 ">
+                                Little shepherd Network </span>
+                        </p>
+                        <p  className=" mt-5">
+                            <span className="  text-xs lg:text-lg  text-center">Token Symbol : </span>
+                            <span className="font-semibold text-center text-xs lg:text-lg px-2 text-yellow-400 ">
+                                LSN </span>
+                        </p>
+                        <p  className=" mt-5">
+                            <span className="  text-xs lg:text-lg  text-center">Token Type : </span>
+                            <span className="font-semibold text-center text-xs lg:text-lg px-2 text-yellow-400 ">
+                                BEP20 </span>
+                        </p>
+                        <div className="flex flex-row mt-10 justify-center gap-x-32  ">
+                        <div >
+                            <p className="  text-[10px] lg:text-sm text-left ">Platform </p>
+                            <p className="font-semibold text-[10px] lg:text-xl text-left text-yellow-400">BSC</p>
+                        </div>
+                        <div>
+                            <p className="  text-[10px] lg:text-sm text-left ">Total Supply </p>
+                            <p className="font-semibold text-[10px] lg:text-lg text-left text-yellow-400">1000000000 ( 1 billion )
+                            </p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>                
+                    <div className="flex flex-col  gap-x-10  opacity-85">
                         <div className="flex flex-col">
-                            <div className="flex flex-row  text-[8px]  xl:text-xs  mt-20  justify-center items-center  text-center ">
+                            <div className="flex flex-row  text-[8px]  xl:text-xs  mt-10  justify-center items-center  text-center ">
                                 <div className=" flex flex-col  justify-center items-center  text-center  bg-gradient-to-r from-green-400 to-green-500   rounded-l-xl w-28 h-24">
                                     <p><strong>35% </strong></p>
                                     <p>Presale</p>
@@ -36,66 +63,25 @@ export default function Token() {
                                     <p><strong>5% </strong></p><p>Founder</p>
                                 </div>
                             </div>
-                            <div className="flex flex-row py-5 justify-between"><div>
-                                <p className="  text-xs lg:text-md text-center">Token Name </p>
-                                <p className="font-semibold text-center text-xs lg:text-lg px-2 text-yellow-400 ">Little shepherd Network </p>
-                            </div>
-                                <div className=''>
-                                    <p className="  text-xs lg:text-md ">Token Symbol </p>
-                                    <p className="font-semibold text-center text-xs lg:text-lg text-yellow-400 ">LSN </p>
-                                </div>
-                                <div className='mr-2'>
-                                    <p className="  text-xs lg:text-md ">Token Type </p>
-                                    <p className="font-semibold text-center text-xs lg:text-lg text-yellow-400">BEP20 </p>
-                                </div></div>
                         </div>
-                        <div className="justifi-center items-center text-center mt-10">
+                        <div className="justify-center items-center text-center mt-10 lg:pl-20 lg:pr-20 xl:pl-40 xl:pr-40">
                             <h1 className="text-xl ">Transaction Tax
                             </h1>
-                            <div className='flex-1 justify-between items-center text-center   border-yellow-400 border rounded-xl'>
-                                <div className="p-2 border-b-yellow-400 border-b  ">
-                                    <p><strong>Buy </strong>0%</p>
-                                </div>
-                                <div className="p-2    ">
+                            <div className='justify-center items-center text-center mt-2 ring-1 rounded-xl'>
+                                <div className="p-2 ">
                                     <p><strong>Sell </strong>10%</p>
                                 </div>
-                                <div className=" flex p-2 gap-x-5 justify-between lg:text-sm  text-[9px]  ">
-                                    <p><strong>30% <br /></strong>Burn Wallet</p>
-                                    <p><strong>20% <br /></strong>Staking Holders</p>
-                                    <p><strong>20% <br /></strong>Liquidity</p>
-                                    <p><strong>20% <br /></strong>Marketing</p>
-                                    <p><strong>10% <br /></strong>Creators Fund</p>
+                                <div className=" flex p-2 gap-x-5 sm:gap-x-10 md:gap-16 lg:gap-x-20 justify-center md:text-sm sm:text-xs   text-[10px]  ">
+                                    <p><strong>3% <br /></strong>Burn Wallet</p>
+                                    <p><strong>2% <br /></strong>Staking Holders</p>
+                                    <p><strong>2% <br /></strong>Liquidity</p>
+                                    <p><strong>2% <br /></strong>Marketing</p>
+                                    <p><strong>1% <br /></strong>Creators Fund</p>
                                 </div>
                             </div>
-                        </div>                     
+                        </div>
                     </div>
-                    <div className="flex gap-x-5 md:gap-x-16 mt-5 md:mt-0 ">
-                            <div className='px-5'>
-                                <p className="  text-[10px] lg:text-md text-left ">Platform </p>
-                                <p className="font-semibold text-[10px] lg:text-xl text-left ">BSC</p>
-                            </div>
-
-                            <div>
-                                <p className="  text-[10px] lg:text-md text-left ">Total Supply </p>
-                                <p className="font-semibold text-[10px] lg:text-lg text-left ">1000000000 ( 1 billion )
- </p>
-
-                            </div>
-                            <div>
-                            <button
-                                type="button"
-                                className=" shadow-2xl bg-yellow-400 text-black font-semibold py-2 px-3 md:px-7 lg:mx-4 
-                                           lg:w-40 text-center justify-center items-center rounded-full cursor-pointer 
-                                           hover:bg-yellow-500">
-
-                                Invest Now
-                            </button>
-                            </div></div>
-
                 </div>
-
-
-            </div>
         </section >
     )
 } 

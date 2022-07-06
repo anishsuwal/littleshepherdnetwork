@@ -14,38 +14,25 @@ import Footer from '../components/common/footer'
 export default function Home() {
   return (
     <>
-     <Particle />
-     <div className="w-full font-Montserrat text-sm text-white">
-          <Navbar />
-          <Hero />          
-          <div className=' mt-44   text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
-          <AboutUs/>  
-        </div>
-        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
-        <Products/>
-        </div>
-        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
-          <Token/>         
-        </div>
-        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl'>
-          <WhyWe/>
-          <Roadmap/>         
-        </div>
-        <div className='  text-justify border-x-yellow-500border-t border-slate-900 shadow-2xl'>
-          <Team/>
-        </div>
-        <div className='  text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl pb-10'>
-          <ContactUs/>
-        </div>
-        <div className=' text-justify border-x-yellow-500 border-t border-slate-900 shadow-2xl '>
-          <Footer/>
-        </div>
-       
+      <Particle />
+      <Navbar />
+
+      <div className="w-full font-Montserrat text-sm text-white scroll-smooth p-5 text-justify xl:p-40  ">
+        <Hero />
+        <AboutUs />
+        <Products />
+        <Token />
+        <WhyWe />
+        <Roadmap />
+        <Team />
+        <ContactUs />
       </div>
-         
-  
-      
-         
+      <Footer />      
+
+
+
+
+
 
     </>
   )

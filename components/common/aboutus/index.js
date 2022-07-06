@@ -3,14 +3,13 @@ import aboutimg from "../../../img/about-img.svg"
 
 export default function aboutUs() {
     return (
-        <section id="aboutus" className="delay-1000">
+        <section id="aboutus" className="delay-1000 pt-28">
 
-            <div className=" lg:p-10 p-2 lg:mx-28   ">
 
-                <div className="grid grid-cols-1 md:grid-cols-2  text-white">
-                    <div><h1 className="text-5xl font-semibold">About US</h1>
-                        <div className="text-lg pt-16">
-                            <p><span className="text-2xl font-bold text-yellow-400">LSNetwork</span> is introducing The Worlds First Digital streaming Platform and
+                <div className="grid grid-cols-1 md:grid-cols-2">
+                    <div><h1 className="text-2xl md:text-5xl font-semibold">About US</h1>
+                        <div className="text-sm lg:text-lg pt-16">
+                            <p><span className="text-lg lg:text-2xl font-bold text-yellow-400">LSNetwork</span> is introducing The Worlds First Digital streaming Platform and
                                 Marketplace through its NFTs on blockchain that aims to build a
                                 collaborative content ecosystem with the core purpose of giving audience a
                                 choice to own the content and use it for passive income, seed funding,
@@ -18,7 +17,7 @@ export default function aboutUs() {
                                 World.
                             </p>
                             <p className="pt-5 ">
-                                <span className="text-2xl font-bold text-yellow-400 text-center">LSNetwork</span> platform will create direct financing and investments for deserving
+                                <span className="text-lg lg:text-2xl font-bold text-yellow-400 text-center">LSNetwork</span> platform will create direct financing and investments for deserving
                                 content creators, film professionals and media artists who have the talent
                                 but not the resources giving them access to global investors through Nfts
                                 sales as well as a global audience. As NFTs, they can buy and sell these
@@ -34,7 +33,7 @@ export default function aboutUs() {
                             layout="responsive"
                         />
                     </div>
-                    <div className=" col-span-2 text-lg pt-5"><p>They can earn up to 50% - 100%  of their referral sales through various
+                    <div className=" col-span-2 text-sm lg:text-lg pt-5"><p>They can earn up to 50% - 100%  of their referral sales through various
                         limited NFTs reward programmes. Not only that with our future subscription
                         plan, a huge percentage of income shall be shared with all the NFT
                         holders. We want to build a decentralized ecosystem around a streaming
@@ -57,9 +56,7 @@ export default function aboutUs() {
 
                         </p>
                     </div>
-                </div>
-
-            </div>
-        </section>
+            </div>        
+            </section>
     )
 } 

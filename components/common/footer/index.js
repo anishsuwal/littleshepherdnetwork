@@ -11,20 +11,17 @@ export default function Footer() {
     return (
 
         <footer>
-            <div className="pt-10 text-white  bg-partners pb-8 ">
-                <div className="p-6 sm:ml-20 sm:mr-20 md:ml-20 md:mr-20 lg:ml-40 lg:mr-40">
+            <div className=" text-white p-5 xl:pl-40 xl:pr-40 border-t">
                     <Image className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
 
                         alt="ATB"
                         src={logo}
                         layout="fixed" priority
                     />
-                </div>
-                <div className=" p-6 sm:ml-20 sm:mr-20 
-                        md:ml-20 md:mr-20 lg:ml-40 lg:mr-40  
+                <div className=" p-6 
                         grid sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 2xl:grid-cols-5  gap-20">
                     <div className="max-w-2xl">
-                        <span className="text-3xl font-bold sm:mt-4 sm:text-xl">LSNetwork </span>
+                        <span className="text-lg md:text-3xl font-bold sm:mt-4 sm:text-xl">LSNetwork </span>
                         <p className="pt-5">The trusted brand in cryptocurrency Cryptocurrency, perfect investment</p>
                         <div >
                             <ul>
@@ -36,7 +33,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="max-w-2xl">
-                        <span className="text-3xl font-bold sm:mt-4 sm:text-xl">Labs </span>
+                        <span className="text-lg md:text-3xl font-bold sm:mt-4 sm:text-xl">Labs </span>
                         <ul className="pt-5">
                             <li>
                                 <a href="">Contact</a>
@@ -49,7 +46,7 @@ export default function Footer() {
                             </li>
                         </ul></div>
                     <div className="max-w-2xl">
-                        <span className=" font-bold sm:mt-4 sm:text-xl ">Develop </span>
+                        <span className=" font-bold sm:mt-4 text-lg md:text-3xl ">Develop </span>
                         <ul className="pt-5">
                             <li>
                                 <a href="">Docs</a>
@@ -63,7 +60,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="max-w-2xl">
-                        <span className=" font-bold sm:mt-4 sm:text-xl ">Participate </span>
+                        <span className=" font-bold sm:mt-4 text-lg md:text-3xl ">Participate </span>
                         <ul className="pt-5">
                             <li>
                                 <a href="">Community</a>
@@ -77,7 +74,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="max-w-2xl">
-                        <span className=" font-bold sm:mt-4 sm:text-xl ">Other </span>
+                        <span className=" font-bold sm:mt-4 text-lg md:text-3xl ">Other </span>
                         <ul className="pt-5">
                             <li>
                                 <a href="">Terms of Use</a>
@@ -86,18 +83,18 @@ export default function Footer() {
                                 <a href="">Cookie Policy</a>
                             </li>
                         </ul></div>
+                </div>         
                 </div>
                 <div className=" animate-bounce  flex justify-end mr-10 ">
                     <a href="#home">
                         <Image className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center "
-
                             alt="LSN"
                             src={scrollup}
                             layout="fixed" priority
                         />
                     </a>
-                </div>
-            </div>
+                </div>  
+
         </footer>
     )
 }

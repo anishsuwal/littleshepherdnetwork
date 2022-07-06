@@ -3,12 +3,12 @@ import logo from "../../../img/founder.png"
 
 export default function Team() {
     return (
-        <section id="team" className="delay-1000 ">
-            <div className=" lg:p-10 p-2 lg:mx-28 text-white">
-                <div className="flex  ">
+        <section id="team" className="delay-1000 pt-28">
+                <div className="flex ">
                     <div>
-                        <h1 className="text-5xl font-semibold">OUR CORE TEAM AND CONTRIBUTORS</h1>
-                        <div className="text-lg pt-10">
+
+                        <h1 className="  md:text-5xl text-2xl font-bold">Team</h1>
+                        <div className="text-sm md:text-lg pt-10">
                             <p>The team are seasoned professionals with proven track records with high performing
                                 bussiness in the media, online video and technology sectors</p>
                         </div>
@@ -49,7 +49,6 @@ export default function Team() {
                         <span className="mt-5">Technology</span>
                     </div>
                 </div>
-            </div>
         </section>
     )
 } 

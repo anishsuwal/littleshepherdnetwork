@@ -3,10 +3,8 @@ import aboutimg from "../../../img/whitepaper.png"
 
 export default function Products() {
     return (
-        <section id="products" className="delay-1000 ">
-            <div className=" lg:p-10 p-2 lg:mx-28 bg  ">
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-20  text-white">
+        <section id="products" className="pt-28">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
                     <div className="mt-10">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
@@ -14,10 +12,11 @@ export default function Products() {
                             layout="responsive"
                         />
                     </div>
-                    <div><h1 className="text-5xl font-semibold ">Products</h1>
-                        <h1 className="pt-10 text-2xl font-semibold"> LSNetwork platform will have these (Products and utility )</h1>
-                        <div className="text-lg pt-10">
-                            <ul className="list-disc">
+
+                    <div><h1 className="text-2xl md:text-5xl font-semibold ">Products</h1>
+                        <h1 className="pt-10 text-sm lg:text-2xl font-semibold"> LSNetwork platform will have these (Products and utility )</h1>
+                        <div className="text-sm lg:text-lg pt-10">
+                            <ul className="list-disc ">
                                 <li>LSN Mint - Minting your own project as NFT, Buying and selling of
                                     created content NFT</li>
                                 <li>NXT CHILL Platform - Content viewing and subscription based
@@ -39,7 +38,6 @@ export default function Products() {
 
                    
                 </div>
-            </div>
         </section>
     )
 } 
