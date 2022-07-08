@@ -37,17 +37,17 @@ export default function Navbar() {
           </div>
         </div>
         <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer lg:hidden'>
-          <button name={open ? 'close' : 'menu'}><div className="w-5 h-1 bg-gray-600 mb-1"></div>
-            <div className="w-5 h-1 bg-gray-600 mb-1"></div>
-            <div className="w-5 h-1 bg-gray-600"></div></button>
+          <button name={open ? 'close' : 'menu'}><div className="w-5 h-1 bg-yellow-400 mb-1"></div>
+            <div className="w-5 h-1 bg-yellow-400 mb-1"></div>
+            <div className="w-5 h-1 bg-yellow-400"></div></button>
         </div>
-        <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute mr-10
-       lg:static   lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9
+        <ul className={`lg:flex lg:items-center  lg:pb-0 pb-12 absolute  
+       lg:static   lg:z-auto z-[-1] right-0 items-center lg:w-auto lg:pl-0 pl-9
         transition-all duration-500 ease-in ${open ? 'top-20 bg-black  lg:bg-transparent ' : 'top-[-490px] bg-transparent'}`}>
           {
             Links.map((link) => (
-              <li key={link.name} className='lg:ml-8 -400 text-sm lg:my-0 my-7'>
-                <a href={link.link} onClick={() => setOpen(!open)} className='text-white hover:text-yellow-400 duration-500'>{link.name}</a>
+              <li key={link.name} className='lg:ml-8  text-sm lg:my-0 my-7 text-right pr-20 lg:pr-0  '>
+                <a href={link.link} onClick={() => setOpen(!open)} className='text-white  hover:text-yellow-400 duration-500'>{link.name}</a>
               </li>
             )) 
           }
