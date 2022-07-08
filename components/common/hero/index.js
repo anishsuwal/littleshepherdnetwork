@@ -14,7 +14,7 @@ export default function Hero() {
                
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
-                        <header className=" group xl:pt-48  py-10">
+                        <header className=" group xl:pt-48  pt-28">
                             <h1 className=" text-3xl text-yellow-400 lg:text-5xl">
                                 <br className="block md:hidden" />
                                 <span className="text-5xl font-bold"> </span>
@@ -27,7 +27,7 @@ export default function Hero() {
                             <div className="text-[10px] lg:text-sm font-bold uppercase ">Community Driven WEB-3 STREAMING PLATFORM</div>
                         </header>
 
-                        <div className=" flex lg:justify-start  gap-x-5 md:gap-x-20 ">
+                        <div className=" flex lg:justify-start  gap-x-5 md:gap-x-20 pt-10">
                             <div className="rounded-md shadow mx-2 ">
                                 <a href="#" className="w-full flex items-center shadow-2xl justify-center px-5 py-2 border-yellow-400 border 
                         text-base font-medium rounded-full 
