@@ -77,9 +77,9 @@ export default function ContactUs() {
                             </textarea>
                         </div>
                         <div className="row-start-4 rounded-lg">
-                        <button className="bg-transparent ring-1 font-semibold  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
-                        text-center justify-center items-center rounded-full cursor-pointer hover:bg-yellow-500">
-                        Send
+                        <button className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
+                        text-center justify-center items-centercursor-pointer hover:bg-yellow-500 bg-transparent">
+                        Send 
                         </button>
                         </div>
                         <div className="bg-white-500 row-span-1 rounded-lg"><input

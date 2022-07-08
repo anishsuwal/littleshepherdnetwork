@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
 
-      <div className="w-full font-Montserrat text-sm text-white scroll-smooth p-5 text-justify xl:p-40  ">
+      <div className="w-full font-Montserrat text-sm text-white scroll-smooth p-5 text-justify xl:pl-40 xl:pr-40  ">
         <AboutUs />
         <Products />
         <Token />

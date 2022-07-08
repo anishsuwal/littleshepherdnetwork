@@ -15,7 +15,7 @@
   width: 4px;
   height: 100%;
   background-color: #fff;
-  animation: cursor 2.6s linear infinite alternate;
+  animation: cursor 5.6s linear infinite alternate;
   will-change: opacity;
 }
 
