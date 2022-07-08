@@ -47,9 +47,9 @@ export default function Navbar() {
           {
             Links.map((link) => (
               <li key={link.name} className='lg:ml-8 -400 text-sm lg:my-0 my-7'>
-                <a href={link.link} className='text-white hover:text-gray-400 duration-500'>{link.name}</a>
+                <a href={link.link} onClick={() => setOpen(!open)} className='text-white hover:text-gray-400 duration-500'>{link.name}</a>
               </li>
-            ))
+            )) 
           }
           <div className="lg:flex flex-1 inline-block text-sm  py-4   mr-20 leading-none  rounded">
             <button
