@@ -1,16 +1,34 @@
 import Image from "next/image"
+import { useEffect } from "react";
 import logo from "../../../img/entertainment.png"
 
 
 
 export default function Hero() {
 
+
+
+
+  useEffect (() => {
+
+    if(typeof window !='undefined')
+            var obj = document.getElementById('video');
+            var obj1 = document.getElementById('video1');
+
+            obj.playbackRate=0.25;
+            obj1.playbackRate=0.25;
+
+            console.log("ddddddddddddddddddddddddd",obj.playbackRate);        
+
+    },[]);
+    
+
     return (
         <section id="home" className="delay-1000 scroll-m-64  ">
             <header className="relative grid  min-h-screen  overflow-hidden ">
             <div
                 className="relative z-30  text-white   rounded-xl p-5  xl:pl-40 xl:pr-40"
-            >
+            >   
                
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
@@ -46,22 +64,24 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-            <video
+            <video id="video"
                 autoPlay
                 loop
-                muted playsInline
+                muted playsInline   
                 className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
-            >
+                            >
                 <source
                 src="https://cdn.videvo.net/videvo_files/video/free/2013-08/large_watermarked/hd0920_preview.mp4"
                 type="video/mp4"
                 />
             </video>
             <video
+                 id="video1"
                 autoPlay
                 loop
                 muted
                 playsInline
+               
                 className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
             >
                 <source
@@ -71,7 +91,9 @@ src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd
             </video>
             </header>
         </section>
+        
     )
+    
 }
 
 
