@@ -62,7 +62,7 @@ export default function Hero() {
                 autoPlay
                 loop
                 muted
-                className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
+                className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-20"
             >
                 <source
 src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"               
