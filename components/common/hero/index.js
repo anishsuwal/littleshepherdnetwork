@@ -7,7 +7,7 @@ export default function Hero() {
 
     return (
         <section id="home" className="delay-1000 scroll-m-64  ">
-            <header className="relative grid items-center  h-screen  overflow-hidden">
+            <header className="relative grid items-center  h-fit  overflow-hidden">
             <div
                 className="relative z-30  text-white  rounded-xl p-5  xl:p-40"
             >
@@ -19,7 +19,7 @@ export default function Hero() {
                             <h1 className="mb-1  text-3xl text-yellow-400 lg:text-5xl">
                                 <br className="block md:hidden" />
                                 <span className="text-5xl font-bold"> </span>
-                                <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse 
+                                <span className="inline-flex h-14 xl:h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse 
                     whitespace-nowrap text-brand-accent will-change-transform text-2xl sm:text-3xl lg:text-5xl font-bold ">
                                     Little Shepherd Network
                                 </span>
@@ -65,7 +65,8 @@ export default function Hero() {
                 className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
             >
                 <source
-src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"                type="video/mp4"
+src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"               
+ type="video/mp4"
                 />
             </video>
             </header>
