@@ -28,7 +28,7 @@ export default function Hero() {
                         </header>
 
                         <div className=" flex lg:justify-start  gap-x-5 md:gap-x-20 pt-10">
-                            <div className="rounded-md shadow mx-2 ">
+                            <div className="rounded-md shadow ">
                                 <a href="#" className="w-full flex items-center shadow-2xl justify-center px-5 py-2 border-yellow-400 border 
                         text-base font-medium rounded-full 
                          hover:bg-yellow-500   ">
