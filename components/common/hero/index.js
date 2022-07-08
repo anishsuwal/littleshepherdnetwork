@@ -15,8 +15,8 @@ export default function Hero() {
             var obj = document.getElementById('video');
             var obj1 = document.getElementById('video1');
 
-            obj.playbackRate=0.25;
-            obj1.playbackRate=0.25;
+            obj.playbackRate=0.5;
+            obj1.playbackRate=0.5;
 
             console.log("ddddddddddddddddddddddddd",obj.playbackRate);        
 
