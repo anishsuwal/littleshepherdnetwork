@@ -9,7 +9,7 @@ export default function Hero() {
         <section id="home" className="delay-1000 scroll-m-64  ">
             <header className="relative grid items-center  h-screen  overflow-hidden">
             <div
-                className="relative z-30  text-white  rounded-xl  xl:p-40"
+                className="relative z-30  text-white  rounded-xl p-5  xl:p-40"
             >
                
             <div className="items-center mb-32 ">
@@ -27,7 +27,7 @@ export default function Hero() {
                             <div className="text-[10px] lg:text-sm font-bold uppercase ">Community Driven WEB-3 STREAMING PLATFORM</div>
                         </header>
 
-                        <div className=" flex lg:justify-start md:gap-x-20 ">
+                        <div className=" flex lg:justify-start justify-between md:gap-x-20 ">
                             <div className="rounded-md shadow mx-2 ">
                                 <a href="#" className="w-full flex items-center shadow-2xl justify-center px-5 py-2 border-yellow-400 border 
                         text-base font-medium rounded-full 
@@ -51,15 +51,23 @@ export default function Hero() {
                 autoPlay
                 loop
                 muted
-                className="absolute z-10 min-w-full min-h-full w-full opacity-30"
+                className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
             >
                 <source
-              src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"
-type="video/mp4"
+                src="https://cdn.videvo.net/videvo_files/video/free/2013-08/large_watermarked/hd0920_preview.mp4"
+                type="video/mp4"
                 />
-                Your browser does not support the video tag.
             </video>
-            
+            <video
+                autoPlay
+                loop
+                muted
+                className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
+            >
+                <source
+src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"                type="video/mp4"
+                />
+            </video>
             </header>
         </section>
     )
