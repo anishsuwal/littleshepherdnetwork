@@ -6,7 +6,7 @@ export default function aboutUs() {
         <section id="aboutus" className="delay-1000 pt-28  ">
 
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 ">
                     <div><h1 className="text-2xl md:text-5xl font-semibold">About US</h1>
                         <div className="text-sm lg:text-lg pt-16">
                             <p><span className="text-lg lg:text-2xl font-bold text-yellow-400">LSNetwork</span> is introducing The Worlds First Digital streaming Platform and
