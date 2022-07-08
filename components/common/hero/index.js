@@ -14,7 +14,7 @@ export default function Hero() {
                
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
-                        <header className=" group xl:pt-48  pt-28">
+                        <header className=" group pt-48">
                             <h1 className=" text-3xl text-yellow-400 lg:text-5xl">
                                 <br className="block md:hidden" />
                                 <span className="text-5xl font-bold"> </span>
