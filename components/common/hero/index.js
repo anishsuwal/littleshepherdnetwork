@@ -7,20 +7,20 @@ export default function Hero() {
 
     return (
         <section id="home" className="delay-1000 scroll-m-64  ">
-            <header className="relative grid items-center  h-screen  overflow-hidden">
+            <header className="relative grid  min-h-screen  overflow-hidden ">
             <div
-                className="relative z-30  text-white  rounded-xl p-5  xl:pl-40 xl:pr-40"
+                className="relative z-30  text-white   rounded-xl p-5  xl:pl-40 xl:pr-40"
             >
                
-            <div className="items-center ">
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
-                        <header className=" group  py-10">
-                            <h1 className="mb-1  text-3xl text-yellow-400 lg:text-5xl">
+                        <header className=" group xl:pt-48  py-10">
+                            <h1 className=" text-3xl text-yellow-400 lg:text-5xl">
                                 <br className="block md:hidden" />
                                 <span className="text-5xl font-bold"> </span>
-                                <span className="inline-flex h-14 xl:h-20  overflow-x-hidden animate-type group-hover:animate-type-reverse 
-                    whitespace-nowrap text-brand-accent will-change-transform text-2xl sm:text-3xl xl:text-5xl font-bold ">
+                                <span className="inline-flex h-14 xl:h-20  overflow-x-hidden animate-type
+                                 group-hover:animate-type-reverse   whitespace-nowrap text-brand-accent will-change-transform
+                                 text-2xl sm:text-3xl xl:text-5xl font-bold ">
                                     Little Shepherd Network
                                 </span>
                             </h1>
@@ -45,7 +45,6 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
             <video
                 autoPlay
