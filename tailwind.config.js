@@ -35,7 +35,9 @@ module.exports = {
           '85%, 90%': { width: '16ch' },
           '90%, 95%': { width: '17ch' },
           '95%': { width: '18ch' },
-          '100%': { width: '19ch' }
+          '97%': { width: '19ch' },
+          '100%': { width: '20ch' }
+
         },
       },
     },

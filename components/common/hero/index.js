@@ -6,7 +6,12 @@ import logo from "../../../img/entertainment.png"
 export default function Hero() {
 
     return (
-        <section id="home" className="delay-1000 scroll-m-64 py-10 ">
+        <section id="home" className="delay-1000 scroll-m-64  ">
+            <header className="relative grid items-center  h-screen  overflow-hidden">
+            <div
+                className="relative z-30  text-white  rounded-xl  xl:p-40"
+            >
+               
             <div className="items-center mb-32 ">
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
@@ -38,11 +43,29 @@ export default function Hero() {
                                 </a>
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
+            </div>
+            <video
+                autoPlay
+                loop
+                muted
+                className="absolute z-10 w-auto min-w-full min-h-full max-w-none opacity-30"
+            >
+                <source
+              src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"
+type="video/mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+            
+            </header>
         </section>
     )
 }
+
+//                src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1931_preview.mp4"
+//                src="https://cdn.videvo.net/videvo_files/video/free/2013-08/large_watermarked/hd0920_preview.mp4"
 
 

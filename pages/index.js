@@ -16,9 +16,9 @@ export default function Home() {
     <>
       <Particle />
       <Navbar />
+      <Hero />
 
       <div className="w-full font-Montserrat text-sm text-white scroll-smooth p-5 text-justify xl:p-40  ">
-        <Hero />
         <AboutUs />
         <Products />
         <Token />
