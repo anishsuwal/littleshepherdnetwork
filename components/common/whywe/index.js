@@ -3,7 +3,7 @@ import aboutimg from "../../../img/hero-img.svg"
 
 export default function WhyWe() {
     return (
-        <section id="whyme" className="delay-1000 pt-28">
+        <section id="whyme" className=" pt-28">
                 <div className="grid grid-cols-1 md:grid-cols-2 ">
                     <div className="mt-10">
                         <Image className="w-full aspect-video ..."

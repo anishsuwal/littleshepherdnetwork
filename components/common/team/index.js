@@ -3,7 +3,7 @@ import logo from "../../../img/founder.png"
 
 export default function Team() {
     return (
-        <section id="team" className="delay-1000 pt-28">
+        <section id="team" className=" pt-28">
                 <div className="flex ">
                     <div>
 

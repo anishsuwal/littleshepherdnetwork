@@ -6,7 +6,7 @@ import Countdown from "../countdown"
 
 export default function Token() {
     return (
-        <section id="token" className="delay-1000 pt-28">
+        <section id="token" className=" pt-28">
 
                 <div className="flex flex-col justify-center  opacity-85">
                     <div><h1 className="text-2xl md:text-5xl font-semibold">Tokenomics </h1></div>

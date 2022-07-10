@@ -6,30 +6,22 @@ import logo from "../../../img/entertainment.png"
 
 export default function Hero() {
 
-
-
-
   useEffect (() => {
 
     if(typeof window !='undefined')
             var obj = document.getElementById('video');
             var obj1 = document.getElementById('video1');
-
             obj.playbackRate=0.25;
             obj1.playbackRate=0.25;
-
-            console.log("ddddddddddddddddddddddddd",obj.playbackRate);        
-
     },[]);
     
 
     return (
-        <section id="home" className="delay-1000 scroll-m-64  ">
+        <section id="home" className=" scroll-m-64  ">
             <header className="relative grid  min-h-screen  overflow-hidden ">
             <div
                 className="relative z-30  text-white   rounded-xl p-5  xl:pl-40 xl:pr-40"
-            >   
-               
+            >                  
                 <div className=" grid grid-cols-1 md:grid-cols-2">
                     <div>
                         <header className=" group pt-48">

@@ -3,7 +3,7 @@ import aboutimg from "../../../img/about-img.svg"
 
 export default function Roadmap() {
     return (
-        <section id="roadmap" className="delay-1000 pt-28">
+        <section id="roadmap" className=" pt-28">
 
 
                 <div className=" text-center">
