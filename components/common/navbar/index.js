@@ -61,7 +61,7 @@ export default function Navbar() {
               <span className="px-1  text-sm">Buy Tokens</span>
             </a>
             
-            <a href="/Whitepaper.pdf" target="_blank"  
+            <a href="/whitepaper.pdf" target="_blank"  
             className="bg-transparent border-yellow-400 border shadow-2xl   text-base font-medium rounded-full inline-flex lg:w-40 h-10 w-full    
               py-2 px-5 mx-4 text-center justify-center items-center hover:bg-yellow-500"
             >
