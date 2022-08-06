@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useEffect } from "react";
-import pdf from "../../../public/Whitepaper.pdf"
 
 
 

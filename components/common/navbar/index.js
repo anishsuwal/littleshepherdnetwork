@@ -1,6 +1,5 @@
 import React from 'react'
-import { HiMenuAlt4 } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
+
 import logo from "../../../img/logo.jpeg"
 import Image from 'next/image';
 import { useState } from 'react'
