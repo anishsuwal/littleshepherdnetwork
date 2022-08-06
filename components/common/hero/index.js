@@ -45,7 +45,7 @@ export default function Hero() {
                                 </a>
                             </div>
                             <div className="rounded-md shadow">
-                                <Link href={"../../../public/Whitepaper.pdf"}>
+                                <Link href={"/whitepaper.pdf"}>
                                 <a target="_blank" 
                                 className="w-full flex items-center justify-center 
                                 px-5 py-2 border-yellow-400 border shadow-2xl 
