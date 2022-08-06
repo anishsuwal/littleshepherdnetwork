@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useEffect } from "react";
+import pdf from "../../../public/Whitepaper.pdf"
 
 
 
@@ -45,7 +46,7 @@ export default function Hero() {
                                 </a>
                             </div>
                             <div className="rounded-md shadow">
-                                <Link href={"Whitepaper.pdf"}>
+                                <Link href={"../../../public/Whitepaper.pdf"}>
                                 <a target="_blank" 
                                 className="w-full flex items-center justify-center 
                                 px-5 py-2 border-yellow-400 border shadow-2xl 
