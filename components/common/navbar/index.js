@@ -61,7 +61,7 @@ export default function Navbar() {
             >
               <span className="px-1  text-sm">Buy Tokens</span>
             </button>
-            <button className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
+            <button href="../../../public/Whitepaper.pdf" className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
             text-center justify-center items-center cursor-pointer hover:bg-yellow-500 bg-transparent">
               Whitepaper 
               </button>
