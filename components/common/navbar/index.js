@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import logo from "../../../img/icon.png"
+import logo from "../../../img/logo.jpeg"
 import Image from 'next/image';
 import { useState } from 'react'
 
@@ -31,7 +31,10 @@ export default function Navbar() {
               <Image
                 alt="ATB"
                 src={logo}
-                layout="fixed" priority
+                layout="fixed"
+                width={250}
+                height={100}
+                priority
               />
             </a>
           </div>
@@ -59,7 +62,7 @@ export default function Navbar() {
               <span className="px-1  text-sm">Buy Tokens</span>
             </button>
             <button className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl  px-7 mx-4 lg:w-40 h-10 w-full    mt-5 lg:mt-0
-            text-center justify-center items-centercursor-pointer hover:bg-yellow-500 bg-transparent">
+            text-center justify-center items-center cursor-pointer hover:bg-yellow-500 bg-transparent">
               Whitepaper 
               </button>
           </div>

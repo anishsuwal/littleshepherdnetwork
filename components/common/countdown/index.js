@@ -45,7 +45,7 @@ export default function Countdown(){
     clearInterval(updateTime);
   }
 
-}, [time]);
+}, [time,countDownDate]);
 
  let countDownDate = new Date().getTime() + timeToDays;
   return(

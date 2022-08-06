@@ -1,6 +1,6 @@
-import Image from "next/image"
+import Link from "next/link";
 import { useEffect } from "react";
-import logo from "../../../img/entertainment.png"
+import pdf from "../../../public/Whitepaper.pdf"
 
 
 
@@ -39,18 +39,22 @@ export default function Hero() {
 
                         <div className=" flex lg:justify-start  gap-x-5 md:gap-x-20 pt-10">
                             <div className="rounded-md shadow ">
-                                <a href="#" className="w-full flex items-center shadow-2xl justify-center px-5 py-2 border-yellow-400 border 
+                                <a href="#"  target = "_blank" className="w-full flex items-center shadow-2xl justify-center px-5 py-2 border-yellow-400 border 
                         text-base font-medium rounded-full 
                          hover:bg-yellow-500   ">
                                     Buy Tokens
                                 </a>
                             </div>
                             <div className="rounded-md shadow">
-                                <a href="#" className="w-full flex items-center justify-center px-5 py-2 border-yellow-400 border shadow-2xl 
-                        text-base font-medium rounded-full 
-                        hover:bg-yellow-500   ">
+                                <Link href={"Whitepaper.pdf"}>
+                                <a target="_blank" 
+                                className="w-full flex items-center justify-center 
+                                px-5 py-2 border-yellow-400 border shadow-2xl 
+                                text-base font-medium rounded-full 
+                                hover:bg-yellow-500   ">
                                     Whitepaper
                                 </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
