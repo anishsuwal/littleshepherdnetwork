@@ -65,7 +65,7 @@ export default function Navbar() {
             className="bg-transparent border-yellow-400 border shadow-2xl   text-base font-medium rounded-full inline-flex lg:w-40 h-10 w-full    
               py-2 px-5 mx-4 text-center justify-center items-center hover:bg-yellow-500"
             >
-              Whitepaper 
+              Litepaper 
               </a>
           </div>
         </ul>

@@ -36,9 +36,10 @@ export default function Hero() {
                             <div className="text-[10px] lg:text-sm font-bold uppercase ">Community Driven WEB-3 STREAMING PLATFORM</div>
                         </header>
 
-                        <div className=" flex lg:justify-start  gap-x-5 md:gap-x-20 pt-10">
+                        <div className=" flex lg:justify-start  gap-x-2 md:gap-x-20 pt-10">
                             <div className="rounded-md shadow ">
-                                <a href="#"  target = "_blank" className="w-full flex items-center shadow-2xl justify-center px-5 py-2 border-yellow-400 border 
+                                <a href="#"  target = "_blank" className=" flex items-center shadow-2xl justify-center
+                                 px-5 py-2 w-40 border-yellow-400 border 
                         text-base font-medium rounded-full 
                          hover:bg-yellow-500   ">
                                     Buy Tokens
@@ -47,11 +48,11 @@ export default function Hero() {
                             <div className="rounded-md shadow">
                                 <Link href={"/whitepaper.pdf"}>
                                 <a target="_blank" 
-                                className="w-full flex items-center justify-center 
+                                className="w-40 flex items-center justify-center 
                                 px-5 py-2 border-yellow-400 border shadow-2xl 
                                 text-base font-medium rounded-full 
                                 hover:bg-yellow-500   ">
-                                    Whitepaper
+                                    Litepaper
                                 </a>
                                 </Link>
                             </div>

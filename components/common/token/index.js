@@ -56,11 +56,9 @@ export default function Token() {
                                 <div className="flex flex-col  justify-center items-center  text-center   bg-gradient-to-r from-green-800 to-green-900 w-28 h-24 ">
                                     <p><strong>10% </strong></p><p>Development, Marketing and Partnership</p>
                                 </div>
-                                <div className="flex flex-col  justify-center items-center  text-center   bg-gradient-to-r from-sky-800 to-sky-900 w-28 h-24 ">
-                                    <p><strong>5% </strong></p><p>Core Team</p>
-                                </div>
+                              
                                 <div className="flex flex-col  justify-center items-center  text-center   bg-gradient-to-r from-red-800 to-red-900 rounded-r-xl w-28 h-24 ">
-                                    <p><strong>5% </strong></p><p>Founder</p>
+                                <p><strong>10% </strong></p><p>Core Team</p>
                                 </div>
                             </div>
                         </div>
