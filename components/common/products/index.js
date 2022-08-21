@@ -1,14 +1,14 @@
 import Image from "next/image"
-import aboutimg from "../../../img/whitepaper.png"
+import products from "../../../img/products.png"
 
 export default function Products() {
     return (
         <section id="products" className="pt-28">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-                    <div className="mt-10">
-                        <Image className="w-full aspect-video ..."
+                    <div className="mt-10 opacity-40">
+                        <Image className="w-full h-full aspect-video ..."
                             alt="ATB"
-                            src={aboutimg}
+                            src={products}
                             layout="responsive"
                         />
                     </div>

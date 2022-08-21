@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from "../../../img/logo.jpeg"
+import logo from "../../../img/logo.png"
 import Image from 'next/image';
 import { useState } from 'react'
 
@@ -31,7 +31,7 @@ export default function Navbar() {
                 alt="ATB"
                 src={logo}
                 layout="fixed"
-                width={250}
+                width={150}
                 height={100}
                 priority
               />

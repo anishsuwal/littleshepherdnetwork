@@ -1,5 +1,5 @@
 
-import logo from "../../../img/icon.png"
+import logo from "../../../img/logo-footer.png"
 import Image from "next/image"
 import scrollup from "../../../img/scrollup.png"
 
@@ -16,7 +16,11 @@ export default function Footer() {
 
                         alt="ATB"
                         src={logo}
-                        layout="fixed" priority
+
+                        layout="fixed"
+                width={150}
+                height={100}
+                         priority
                     />
                 <div className=" p-6 
                         grid sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 2xl:grid-cols-5  gap-20">

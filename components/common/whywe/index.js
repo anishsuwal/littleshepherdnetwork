@@ -1,14 +1,18 @@
 import Image from "next/image"
-import aboutimg from "../../../img/hero-img.svg"
+import hall from "../../../img/hall.png"
+import clips from "../../../img/mov-clips.png"
+import camera from "../../../img/camera.png"
+
+
 
 export default function WhyWe() {
     return (
         <section id="whyme" className=" pt-28">
-                <div className="grid grid-cols-1 md:grid-cols-2 ">
-                    <div className="mt-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
+                    <div className="mt-10 opacity-70 md:mt-40">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
-                            src={aboutimg}
+                            src={hall}                            
                             layout="responsive"
                         />
                     </div>
@@ -33,7 +37,7 @@ export default function WhyWe() {
                         </div>
                     </div>
 
-                    <div className=" col-span-2 text-sm lg:text-lg pt-5">
+                    <div className="text-sm lg:text-lg pt-5">
                         <ul className="list-disc">
                             <li>Our sell tax system will fully support and strengthen the token as 10%
                                 sell tax will be going to ( 30% burn wallet + 20% staking holders + 20%
@@ -46,6 +50,26 @@ export default function WhyWe() {
                             <li>LSN token is a community focused DEFI token that forms parts of the
                                 expanding LSN ecosystem. It is highly deflationary because it burns tokens
                                 during transactions in the ecosystem on many levels.</li>
+                           
+                        </ul>
+                    </div>
+                    <div className="mt-10 ">
+                        <Image className="w-full aspect-video ..."
+                            alt="ATB"
+                            src={clips}                            
+                            layout="responsive"
+                        />
+                    </div>
+                    <div className="mt-10 opacity-60">
+                        <Image className="w-full aspect-video ..."
+                            alt="ATB"
+                            src={camera}                            
+                            layout="responsive"
+                        />
+                    </div>
+                   
+                        <div className="text-sm lg:text-lg pt-10">
+                            <ul className="list-disc">
                             <li> LSN project has the real products and utilities in the pipeline.
                             </li>
                             <li>We wish to create an ecosystem for independent filmmakers and artists
@@ -54,8 +78,9 @@ export default function WhyWe() {
                             <li>Create your own catalog of films and shows on our platform with NFTs
                                 and start a fantastic passive income source while you are getting
                                 entertained</li>
-                        </ul>
-                    </div>
+
+                            </ul>
+                        </div>
                 </div>
         </section>
     )

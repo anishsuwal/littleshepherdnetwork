@@ -1,5 +1,7 @@
 import Image from "next/image"
 import aboutimg from "../../../img/mov.png"
+import about1 from "../../../img/about-1.png"
+
 
 export default function aboutUs() {
     return (
@@ -33,7 +35,14 @@ export default function aboutUs() {
                             layout="responsive"
                         />
                     </div>
-                    <div className=" col-span-2 text-sm lg:text-lg pt-5"><p>They can earn up to 50% - 100%  of their referral sales through various
+                    <div className="mt-10 ">
+                        <Image className="w-full aspect-video ..."
+                            alt="ATB"
+                            src={about1}
+                            layout="responsive"
+                        />
+                    </div>
+                    <div className="  text-sm lg:text-lg pt-5"><p>They can earn up to 50% - 100%  of their referral sales through various
                         limited NFTs reward programmes. Not only that with our future subscription
                         plan, a huge percentage of income shall be shared with all the NFT
                         holders. We want to build a decentralized ecosystem around a streaming

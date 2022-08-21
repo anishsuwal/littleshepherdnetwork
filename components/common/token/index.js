@@ -42,7 +42,7 @@ export default function Token() {
                     </div>                
                     <div className="flex flex-col  gap-x-10  opacity-85">
                         <div className="flex flex-col">
-                            <div className="flex flex-row  text-[8px]  xl:text-xs  mt-10  justify-center items-center  text-center ">
+                            <div className="flex flex-row  text-[10px]  xl:text-xs  mt-10  justify-center items-center  text-center ">
                                 <div className=" flex flex-col  justify-center items-center  text-center  bg-gradient-to-r from-green-400 to-green-500   rounded-l-xl w-28 h-24">
                                     <p><strong>35% </strong></p>
                                     <p>Presale</p>
@@ -69,7 +69,8 @@ export default function Token() {
                                 <div className="p-2 ">
                                     <p><strong>Sell </strong>10%</p>
                                 </div>
-                                <div className=" flex p-2 gap-x-5 sm:gap-x-10 md:gap-16 lg:gap-x-20 justify-center md:text-sm sm:text-xs   text-[10px]  ">
+                                <div className=" flex p-2 gap-x-5 sm:gap-x-10 md:gap-16 lg:gap-x-20
+                                 justify-center md:text-sm sm:text-xs   text-[10px]  ">
                                     <p><strong>3% <br /></strong>Burn Wallet</p>
                                     <p><strong>2% <br /></strong>Staking Holders</p>
                                     <p><strong>2% <br /></strong>Liquidity</p>
