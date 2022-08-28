@@ -9,7 +9,7 @@ export default function WhyWe() {
     return (
         <section id="whyme" className=" pt-28">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
-                    <div className="mt-10 opacity-70 md:mt-40">
+                    <div className="mt-10 opacity-40 md:mt-40">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
                             src={hall}                            
@@ -37,7 +37,7 @@ export default function WhyWe() {
                         </div>
                     </div>
 
-                    <div className="text-sm lg:text-lg pt-5">
+                    <div className="text-sm lg:text-lg pt-5 mt-20">
                         <ul className="list-disc">
                             <li>Our sell tax system will fully support and strengthen the token as 10%
                                 sell tax will be going to ( 30% burn wallet + 20% staking holders + 20%
@@ -53,7 +53,7 @@ export default function WhyWe() {
                            
                         </ul>
                     </div>
-                    <div className="mt-10 ">
+                    <div className=" opacity-60  ">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
                             src={clips}                            
@@ -61,11 +61,7 @@ export default function WhyWe() {
                         />
                     </div>
                     <div className="mt-10 opacity-60">
-                        <Image className="w-full aspect-video ..."
-                            alt="ATB"
-                            src={camera}                            
-                            layout="responsive"
-                        />
+                        
                     </div>
                    
                         <div className="text-sm lg:text-lg pt-10">
