@@ -1,7 +1,6 @@
 import Image from "next/image"
-import hall from "../../../img/hall.png"
-import clips from "../../../img/mov-clips.png"
-import camera from "../../../img/camera.png"
+import hall from "../../img/hall.png"
+import clips from "../../img/mov-clips.png"
 
 
 
