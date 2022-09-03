@@ -7,16 +7,16 @@ import camera from "../../../img/camera.png"
 
 export default function WhyWe() {
     return (
-<>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 ">
-                    <div className="mt-10 opacity-40 md:mt-10">
+        <section id="whyme" className=" pt-28">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
+                    <div className="mt-10 opacity-40 md:mt-40">
                         <Image className="w-full aspect-video ..."
                             alt="ATB"
                             src={hall}                            
                             layout="responsive"
                         />
                     </div>
-                    <div><h1 className="text-2xl md:text-5xl font-semibold pt-10">Why LSN?</h1>
+                    <div><h1 className="text-2xl md:text-5xl font-semibold">Why LSN?</h1>
                         <h1 className="pt-10 text-lg lg:text-2xl  font-semibold"> How is it different from other similar projects?</h1>
                         <div className="text-sm lg:text-lg pt-10">
                             <ul className="list-disc">
@@ -78,6 +78,6 @@ export default function WhyWe() {
                             </ul>
                         </div>
                 </div>
-                </>
+        </section>
     )
 } 

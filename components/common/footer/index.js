@@ -89,15 +89,7 @@ export default function Footer() {
                         </ul></div>
                 </div>         
                 </div>
-                <div className=" animate-bounce  flex justify-end mr-10 ">
-                    <a href="#home">
-                        <Image className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center "
-                            alt="LSN"
-                            src={scrollup}
-                            layout="fixed" priority
-                        />
-                    </a>
-                </div>  
+              
 
         </footer>
     )

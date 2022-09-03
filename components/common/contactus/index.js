@@ -6,7 +6,7 @@ import contactusimg from "../../../img/contactus-img.png"
 export default function ContactUs() {
 
     return (
-        <section id="contactus" className="pt-28">
+        <section id="contactus" className="pt-[250px]">
            
                 <div><h1 className="text-2xl md:text-5xl  font-semibold pb-20 ">Contact Us</h1>
                     <div  className="grid grid-row grid-row-6 grid-flow-col gap-4">

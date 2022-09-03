@@ -3,6 +3,7 @@ import React from 'react'
 import logo from "../../../img/logo.png"
 import Image from 'next/image';
 import { useState } from 'react'
+import ActiveLink from '../link';
 
 
 
@@ -11,19 +12,20 @@ export default function Navbar() {
 
 
   const Links = [
-    { name: "Home", link: "#home" },
-    { name: "About", link: "#aboutus" },
-    { name: "Products", link: "#products" },
-    { name: "Token", link: "#token" },
-    { name: "Roadmap", link: "#roadmap" },
+    { name: "Home", link: "/" },
+    { name: "About", link: "/#aboutus" },
+    { name: "Products", link: "/products" },
+    { name: "Token", link: "/token" },
+    { name: "Roadmap", link: "/roadmap" },
     { name: "Team", link: "#team" },
-    { name: "Contact", link: "#contactus" }
+    { name: "Contact", link: "/#contactus" }
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className='shadow-md w-full  top-0 left-0 sticky p-1 z-50 bg-black opacity-80 border-b border-yellow-400 text-white'>
+    <div className='shadow-md w-full  top-0 left-0 sticky p-1 z-50 bg-black opacity-80
+     border-b border-yellow-400 text-white'>
       <div className='flex items-center justify-between  '>
-        <div className='font-bold text-2xl cursor-pointer flex items-center 
+        <div className='font-bold text-2xl  flex items-center 
       text-gray-800'>
           <div className="flex items-center flex-shrink-0  text-white ml-6 xl:ml-40 bg-transparent ">
             <a href="#home">
@@ -49,7 +51,11 @@ export default function Navbar() {
           {
             Links.map((link) => (
               <li key={link.name} className='lg:ml-8  text-sm lg:my-0 my-7 text-right pr-20 lg:pr-0  '>
-                <a href={link.link} onClick={() => setOpen(!open)} className='text-white  hover:text-yellow-400 duration-500'>{link.name}</a>
+               <ActiveLink href={link.link}>
+
+                <a  onClick={() => setOpen(!open)} className='text-white  hover:text-yellow-400 '>{link.name}</a>
+                </ActiveLink>
+
               </li>
             )) 
           }

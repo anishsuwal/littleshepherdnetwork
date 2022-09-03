@@ -1,12 +1,11 @@
 import Image from "next/image"
 import aboutimg from "../../../img/mov.png"
-import about1 from "../../../img/about-1.png"
+import { BaseLayout } from "components/layout"
 
 
 export default function aboutUs() {
     return (
-        <section id="aboutus" className=" pt-28  ">
-
+        <section id="aboutus" className="pt-[250px]" >
 
                 <div className="grid grid-cols-1  md:grid-cols-2 ">
                     <div><h1 className="text-2xl md:text-5xl font-semibold">About US</h1>
@@ -40,3 +39,5 @@ export default function aboutUs() {
             </section>
     )
 } 
+
+aboutUs.Layout = BaseLayout

@@ -4,37 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    @apply scroll-smooth;
-  }
-}
 
-.will-change-transform {
-  will-change: transform;
-}
-.cursor::after {
-  display: block;
-  content: '';
-  position: absolute;
-  width: 4px;
-  height: 100%;
-  background-color: #fff;
-  animation: cursor 5.6s linear infinite alternate;
-  will-change: opacity;
-}
 
-@keyframes cursor {
-  0%,
-  40% {
-    opacity: 1;
-  }
-
-  60%,
-  130% {
-    opacity: 0;
-  }
-}
 /* montserrat-100 - latin */
 @font-face {
   font-family: 'Montserrat';
