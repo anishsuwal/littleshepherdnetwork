@@ -8,7 +8,7 @@ export default function Products() {
     return (
         <>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-20 w-full
-                 font-Montserrat text-sm text-white  p-5 text-justify  mb-20 ">
+                 font-Montserrat text-sm text-white  p-5 text-justify  mb-20 pl-5 xl:pl-40 xl:pr-40  ">
                     <div className="mt-10 opacity-40">
                         <Image className="w-full h-full aspect-video ..."
                             alt="ATB"

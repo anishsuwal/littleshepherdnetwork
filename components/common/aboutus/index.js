@@ -1,6 +1,7 @@
 import Image from "next/image"
 import aboutimg from "../../../img/mov.png"
 import { BaseLayout } from "components/layout"
+import WhyWe from "../whywe"
 
 
 export default function aboutUs() {
@@ -35,7 +36,9 @@ export default function aboutUs() {
                         />
                     </div>
                    
-            </div>        
+            </div>      
+            <WhyWe />
+  
             </section>
     )
 } 

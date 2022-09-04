@@ -11,7 +11,7 @@ export default function Footer() {
     return (
 
         <footer>
-            <div className=" text-white p-5 xl:pl-40 xl:pr-40 border-t">
+            <div className=" text-white p-5 xl:pl-40 xl:pr-40 border-t mt-20">
                     <Image className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
 
                         alt="ATB"

@@ -13,12 +13,15 @@ export default function Roadmap() {
                     </ul>
 
                     <ul className="list-none mx-10  text-sm mt-5">
-                        <li>Startup Launchpads application.</li>
-                        <li>Little shepherds Network token pre-sale</li>
-                        <li>Little shepherd Network token launch</li>
-                        <li>Marketing & Campaigning for the project.</li>
-                        <li>Community building</li>
+                        <li>Startup Launchpads application</li>
+                        <li>LSN Early investors token pre-sale</li>
+                        <li>LSN token pre-sale</li>
+                        <li>LSN token launch</li>
+                        <li>Marketing & Campaigning for the project</li>
+                        <li>Company formation</li>
+                        <li>Community building.</li>
                         <li>White paper V.1</li>
+
 
                     </ul>
                 </div>

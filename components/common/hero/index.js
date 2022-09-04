@@ -33,7 +33,7 @@ export default function Hero() {
                                     Little Shepherd Network
                                 </span>
                             </h1>
-                            <div className="text-[10px] lg:text-sm font-bold uppercase ">Community Driven WEB-3 STREAMING PLATFORM</div>
+                            <div className="text-[10px] lg:text-sm font-bold uppercase ">Community Driven WEB-3 FILM STREAMING PLATFORM</div>
                         </header>
 
                         <div className=" flex lg:justify-start  gap-x-2 md:gap-x-20 pt-10">
@@ -46,7 +46,7 @@ export default function Hero() {
                                 </a>
                             </div>
                             <div className="rounded-md shadow">
-                                <Link href={"/whitepaper.pdf"}>
+                                <Link href={"/litepaper.pdf"}>
                                 <a target="_blank" 
                                 className="w-40 flex items-center justify-center 
                                 px-5 py-2 border-yellow-400 border shadow-2xl 
