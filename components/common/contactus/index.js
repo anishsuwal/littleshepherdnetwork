@@ -174,7 +174,7 @@ export default function ContactUs() {
                                 height={40}
                                 layout='fixed'
                             />
-                            <a href="https://twitter.com/LSNetwork_web3"  target="_blank"  className="hover:text-yellow-400" >https://twitter.com/LSNetwork_web3</a>
+                            <a href="https://twitter.com/LSNetwork_web3"  target="_blank" rel="noreferrer" className="hover:text-yellow-400" >https://twitter.com/LSNetwork_web3</a>
                             </div>
                             <div className="flex text-left items-center justify-start mt-3">
                             <Image 
@@ -185,7 +185,7 @@ export default function ContactUs() {
                                 layout='fixed'
                             />
                             <div>
-                                <a href="https://t.me/LSNetwork_web3"  target="_blank" className="hover:text-yellow-400">https://t.me/LSNetwork_web3</a></div>
+                                <a href="https://t.me/LSNetwork_web3"  target="_blank" rel="noreferrer" className="hover:text-yellow-400">https://t.me/LSNetwork_web3</a></div>
                             </div>
                             </div>
 
