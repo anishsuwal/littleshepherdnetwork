@@ -3,7 +3,6 @@ import React from 'react'
 import logo from "../../../img/logo.png"
 import Image from 'next/image';
 import { useState } from 'react'
-import ActiveLink from '../link';
 
 
 
@@ -51,10 +50,8 @@ export default function Navbar() {
           {
             Links.map((link) => (
               <li key={link.name} className='lg:ml-8  text-sm lg:my-0 my-7 text-right pr-20 lg:pr-0  '>
-               <ActiveLink href={link.link}>
 
-                <a  onClick={() => setOpen(!open)} className='text-white  hover:text-yellow-400 '>{link.name}</a>
-                </ActiveLink>
+                <a href={link.link} onClick={() => setOpen(!open)} className='text-white  hover:text-yellow-400 '>{link.name}</a>
 
               </li>
             )) 

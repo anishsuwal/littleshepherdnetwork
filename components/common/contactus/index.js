@@ -1,12 +1,18 @@
 import Image from "next/image"
 import contactusimg from "../../../img/contactus-img.png"
+import twitter from "../../../img/twitter.png"
+import telegram from "../../../img/telegram.png"
+import email from "../../../img/email.png"
+
+
+
 
 
 
 export default function ContactUs() {
 
     return (
-        <section id="contactus" className="pt-[250px]">
+        <section id="contactus" className="pt-[150px]">
 
             <div><h1 className="text-2xl md:text-5xl  font-semibold pb-20 ">Contact Us</h1>
                 <div className="flex flex-wrap-reverse flex-col md:flex-row  gap-x-20  justify-between">
@@ -114,6 +120,7 @@ export default function ContactUs() {
                                 id="message" rows="4"
                                 className="block p-2.5 
                                 w-full
+                                h-56
                                 text-sm
                                 text-gray-700
                                 bg-white bg-clip-padding 
@@ -126,24 +133,66 @@ export default function ContactUs() {
                                 placeholder="Message">
 
                             </textarea>
-                        </div>                       
+                        </div> 
+                                              
                         </div>
+                        <div className=" rounded-lg mt-5 text-center ">
+                        <button className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl
+                          px-7  lg:w-96 h-10 w-full    mt-5 lg:mt-0
+                        text-center justify-center items-centercursor-pointer hover:bg-yellow-500 bg-transparent">
+                        Send 
+                        </button>
+                </div>
                     </div>
-                    <div className="md:flex hidden"><Image className="w-16 md:w-32 lg:w-48"
+                    <div className=" flex flex-col items-center mt-5">
+                        <div >
+                        <Image className="w-16 md:w-32 lg:w-48"
                                 alt="ATB"
                                 src={contactusimg}
                                 width={200}
                                 height={200}
                                 layout='fixed'
-                            /></div>
-                            
+                            />
+                            </div>
+                            <div>
+                            <div className="flex  text-left items-center justify-start ">
+                            <Image 
+                                alt="ATB"
+                                src={email}
+                                width={40}
+                                height={40}
+                                layout='fixed'
+                            />
+                            <a>littleshepherd.network@gmail.com</a>
+                            </div>
+                                
+                            <div className="flex  text-left items-center justify-start mt-3">
+                            <Image 
+                                alt="ATB"
+                                src={twitter}
+                                width={40}
+                                height={40}
+                                layout='fixed'
+                            />
+                            <a>https://twitter.com/LSNetwork_web3</a>
+                            </div>
+                            <div className="flex text-left items-center justify-start mt-3">
+                            <Image 
+                                alt="ATB"
+                                src={telegram}
+                                width={40}
+                                height={40}
+                                layout='fixed'
+                            />
+                            <div><a>https://t.me/LSNetwork_web3</a></div>
+                            </div>
+                            </div>
+
+                    </div>                            
                 </div>
-                <div className=" rounded-lg mt-10 ">
-                        <button className="text-base font-medium rounded-full border-yellow-400 border shadow-2xl  px-7  lg:w-40 h-10 w-full    mt-5 lg:mt-0
-                        text-center justify-center items-centercursor-pointer hover:bg-yellow-500 bg-transparent">
-                        Send 
-                        </button>
-                </div>
+                
+
+                
             </div>
         </section>
 

@@ -1,12 +1,12 @@
 import Image from "next/image"
 import aboutimg from "../../../img/mov.png"
 import { BaseLayout } from "components/layout"
-import WhyWe from "../whywe"
+import WhyWe from "@pages/whywe"
 
 
 export default function aboutUs() {
     return (
-        <section id="aboutus" className="pt-[250px]" >
+        <section id="aboutus" className="pt-[150px]" >
 
                 <div className="grid grid-cols-1  md:grid-cols-2 ">
                     <div><h1 className="text-2xl md:text-5xl font-semibold">About US</h1>
@@ -37,8 +37,7 @@ export default function aboutUs() {
                     </div>
                    
             </div>      
-            <WhyWe />
-  
+            <WhyWe/>
             </section>
     )
 } 
