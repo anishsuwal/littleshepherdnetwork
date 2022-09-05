@@ -155,16 +155,7 @@ export default function ContactUs() {
                             />
                             </div>
                             <div>
-                            <div className="flex  text-left items-center justify-start ">
-                            <Image 
-                                alt="ATB"
-                                src={email}
-                                width={40}
-                                height={40}
-                                layout='fixed'
-                            />
-                            <a>littleshepherd.network@gmail.com</a>
-                            </div>
+                           
                                 
                             <div className="flex  text-left items-center justify-start mt-3">
                             <Image 
